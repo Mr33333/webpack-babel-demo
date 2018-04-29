@@ -1,0 +1,30 @@
+{
+  "name": "webpack-babel-demo",
+  "version": "1.0.0",
+  "description": "Using webpack and babel-loader to convert es6 to es5. 一个很简单的配置，后面有项目用到可以参考一下。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuige/webpack-babel-demo.git"
+  },
+  "keywords": [
+    "webpack",
+    "babel",
+    "es6"
+  ],
+  "author": "sange",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuige/webpack-babel-demo/issues"
+  },
+  "homepage": "https://github.com/kuige/webpack-babel-demo#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.2.0"
+  }
+}
